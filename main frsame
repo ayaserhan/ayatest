@@ -1,0 +1,261 @@
+<html><head><style>
+body{width:650px;margin:0px;padding:0px;}  
+ul{margin:0px;padding:0px;}
+img{width:310px;}
+
+li:nth-child(odd){
+margin-right:20px;
+}
+
+li{
+margin-bottom:20px;
+}
+  
+/* image effect */
+.view {
+   width: 250px;
+   height: 244px;
+   float: left;
+   border: 0px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+ /*  -webkit-box-shadow: 1px 1px 2px #e6e6e6;
+   -moz-box-shadow: 1px 1px 2px #e6e6e6;
+   box-shadow: 1px 1px 2px #e6e6e6;*/
+   cursor: default;
+}
+
+
+.ads.ads-solutions, .ads.ads-solutions .mask { 
+   width: 310px;
+    height: 180px;
+}
+
+.view .mask,.view .content {
+   width: 250px;
+   height: 244px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+.view img {
+  /* width:100%;*/
+   display: block;
+   position: relative;
+}
+            
+            
+.view h3 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   margin: 20px 0 0 0;
+}
+.view p {
+   font-style: italic;
+   font-size: 12px;
+   position: relative;
+   color: #fff;
+   padding: 10px 20px 20px;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 14px;
+   background: #00aeef;
+   color: #fff;
+   border:1px solid #ffffff;
+   text-transform: uppercase;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+}
+.view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+
+
+.ads img {
+   -webkit-transform: scaleY(1);
+   -moz-transform: scaleY(1);
+   -o-transform: scaleY(1);
+   -ms-transform: scaleY(1);
+   transform: scaleY(1);
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+.ads .mask {
+   background-color: rgba(0, 174, 239, 0.9);
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   -o-transition: all 0.3s linear;
+   -ms-transition: all 0.3s linear;
+   transition: all 0.3s linear;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+
+.ads h3 {
+   border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+   background: transparent;
+   margin: 20px 40px 0px 40px;
+   -webkit-transform: scale(0);
+   -moz-transform: scale(0);
+   -o-transform: scale(0);
+   -ms-transform: scale(0);
+   transform: scale(0);
+   color: #ffffff;
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   -o-transition: all 0.3s linear;
+   -ms-transition: all 0.3s linear;
+   transition: all 0.3s linear;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+
+
+.ads p {
+   color: #ffffff;
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transform: scale(0);
+   -moz-transform: scale(0);
+   -o-transform: scale(0);
+   -ms-transform: scale(0);
+   transform: scale(0);
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   -o-transition: all 0.3s linear;
+   -ms-transition: all 0.3s linear;
+   transition: all 0.3s linear;
+}
+.ads a.info {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+   -webkit-transform: scale(0);
+   -moz-transform: scale(0);
+   -o-transform: scale(0);
+   -ms-transform: scale(0);
+   transform: scale(0);
+   -webkit-transition: all 0.3s linear;
+   -moz-transition: all 0.3s linear;
+   -o-transition: all 0.3s linear;
+   -ms-transition: all 0.3s linear;
+   /* transition: all 0.3s linear; */
+}
+.ads:hover img {
+   -webkit-transform: scale(5);
+   -moz-transform: scale(5);
+   -o-transform: scale(5);
+   -ms-transform: scale(5);
+   transform: scale(5);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+   filter: alpha(opacity=0);
+   opacity: 0;
+}
+.ads:hover .mask {
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+.ads:hover h3,.ads:hover p,.ads:hover a.info {
+   -webkit-transform: scale(1);
+   -moz-transform: scale(1);
+   -o-transform: scale(1);
+   -ms-transform: scale(1);
+   transform: scale(1);
+   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+}
+
+.ads-mh:hover .mask, .ads-mh a.info {
+   background-color: rgba(92, 92, 92, 0.9);
+}
+
+.ads-ls:hover .mask, .ads-ls a.info {
+   background-color: #FFCC00;
+   opacity:0.6;
+}
+
+.ads-lf:hover .mask, .ads-lf a.info {
+   background-color: rgba(182, 24, 23, 0.9);
+}
+
+.ads-solutions h3 {
+   border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+   background: transparent;
+   margin: 10px 40px 0px 40px;
+}
+
+
+.ads-solutions a.info, .ads-solutions p {
+    margin-top:0px;
+}
+ /* @media (min-width: 992px) {.container {
+width: 970px;
+}} 
+  @media (min-width: 1200px) {.container {
+width: 1170px;
+}} */      
+</style>
+
+ </head>
+
+<body>
+
+          <ul>
+		    <li class="view ads ads-solutions ads-ls"> 
+			<img alt="CrossKnowledge Learning Suite" src="./Redirecting_files/Offer.png">
+              <div class="mask">
+                <h3>CrossKnowledge Offer</h3>
+                <p>Get familiar with CrossKnowledge Solutions</p>
+                <a class="info" target="_parent" href="https://partnersportal.lms.crossknowledge.com/cms_page_view.php?id=2">
+				See more</a> </div>
+            </li>
+            <li class="view ads ads-solutions ads-ls"> 
+			<img alt="CrossKnowledge Mohive" src="./Redirecting_files/Sales.png">
+            
+              <div class="mask">
+                <h3>Sales &amp; Marketing Toolbox</h3>
+                <p>Use our tools for better sales</p>
+                <a class="info" target="_parent" href="https://partnersportal.lms.crossknowledge.com/cms_page_view.php?id=3">See more</a> </div>
+            </li>
+			
+			
+			<li class="view ads ads-solutions ads-ls"> 
+			<img alt="CrossKnowledge Learning Formats" src="./Redirecting_files/Deployment_Kit.png">
+              <div class="mask">
+                <h3>Deployment Kit</h3>
+                <p>Use our tools for better implementation</p>
+                <a class="info" target="_parent" href="https://partnersportal.lms.crossknowledge.com/sso/training/3/Singleton/yes/" style="margin-top: -18px;">See more</a> </div>
+            </li>
+			
+			
+	        <li class="view ads ads-solutions ads-ls"> 
+			<img alt="CrossKnowledge Learning Formats" src="./Redirecting_files/Partners.png">
+              <div class="mask">
+                <h3>Partner Community</h3>
+                <p>Join the international community of partners</p>
+                <a class="info" target="_parent" href="https://partnersportal.lms.crossknowledge.com/sso/session/16/Enroll/yes/" style="margin-top: -18px;">See more</a> </div>
+            </li>
+          </ul>
+</body>
+</html>
